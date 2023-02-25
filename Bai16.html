@@ -1,0 +1,37 @@
+<form>
+  <label for="full-name">Full Name:</label>
+  <input type="text" id="full-name" name="full-name" required>
+  
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+  
+  <label for="tour-package">Select Tour Package:</label>
+  <select id="tour-package" name="tour-package">
+    <option value="beach-package">Beach Package</option>
+    <option value="mountain-package">Mountain Package</option>
+    <option value="city-tour-package">City Tour Package</option>
+  </select>
+  
+  <label for="arrival-date">Arrival Date:</label>
+  <input type="date" id="arrival-date" name="arrival-date" required>
+  
+  <label for="number-of-person">Number of Person:</label>
+  <input type="number" id="number-of-person" name="number-of-person" min="1" max="10" required>
+  
+  <label>What would you want to avail?</label>
+  <input type="checkbox" id="boarding" name="services" value="Boarding">
+  <label for="boarding">Boarding</label><br>
+  <input type="checkbox" id="fooding" name="services" value="fooding">
+  <label for="fooding">Fooding</label><br>
+  <input type="checkbox" id="Sightseeing" name="services" value="Sightseeing">
+  <label for="Sightseeing">Sightseeing</label><br>
+  
+  <label for="discount-code">Discount Coupon Code:</label>
+  <input type="text" id="discount-code" name="discount-code">
+  
+  <label for="terms-and-conditions">Terms and Conditions:</label>
+  <input type="checkbox" id="terms-and-conditions" name="terms-and-conditions" required>
+  <label for="terms-and-conditions">I agree to the terms and conditions</label><br>
+  
+  <input type="submit" value="Submit">
+</form>
